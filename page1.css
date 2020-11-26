@@ -1,0 +1,137 @@
+body, a{
+  margin: 0;
+  font-family: Poppins;
+  text-decoration: none;
+}
+
+a:link{
+color: white;
+}
+
+a:visited{
+color: white;
+}
+
+a:hover{
+  color: red;
+}
+
+a:active{
+  color: white;
+}
+/* Heading Starts Here */
+
+.displayimage{
+  margin: 0;
+  border: 1px solid black;
+  background-image: url("background image.png"), linear-gradient(to top, rgba(47, 0,19, 1),rgba(47, 0,19, 0));
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.account{
+  /* width: 35%; */
+  color: white;
+  float: right;
+  margin: 30px 4%;
+}
+
+#cAcc{
+  border: 1px solid white;
+  border-radius: 4px;
+  margin-left: 15px;
+  padding: 10px;
+}
+
+.upper{
+  text-align: center;
+  margin: 50px auto;
+  /* width: 50%; */
+}
+
+#logo{
+  text-align: center;
+  font-weight: bolder;
+  color: #EB2A2A;
+  background: white;
+  font-size: 50px;
+  height: 100px;
+  width: 100px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin: 50px auto;
+  /* padding: 30px 0px 20px 20px; */
+}
+
+#discription{
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.selection, .QuickSearches p, .Cards p{
+  /* margin-bottom: 30px; */
+  color: #ADB3C1;
+
+}
+
+#location{
+  padding: 10px 5px;
+  width: 200px;
+  margin-right: 10px;
+}
+
+#restaurants{
+  width: 300px;
+  padding: 10px 5px;
+}
+
+/* header Ends Here */
+/* Bottom Section Starts Here */
+
+
+.QuickSearches{
+  /* border: 1px solid black; */
+  width: 85%;
+  margin: 40px auto 80px;
+  padding-left: 80px;
+}
+
+.Cards img {
+  float: left;
+  width: 150px;
+  height: 160px;
+  /* margin: 5px; */
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+.Cards{
+  margin: none;
+  padding-right: 10px;
+  /* border: 1px solid black; */
+  width: 320px;
+  /* height: 120px; */
+  display: inline-block;
+  margin: 0px 35px 25px 0px;
+  box-shadow: 2px 2px 5px #ccc;
+}
+
+
+.Cards p{
+  font-size: 12px;
+  margin: 0;
+}
+
+.Cards h5{
+  font-size: 15px;
+  margin: none;
+}
+
+.Cards:hover{
+  transform: scale(1.1, 1.1);
+}

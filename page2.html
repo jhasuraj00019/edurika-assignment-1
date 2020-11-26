@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>page2</title>
+    <link rel="stylesheet" href="page2.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="logo"><p><b>e!</b></p></div>
+        <!-- <div class="account"> -->
+
+        <span id="cAcc" class="account"><a href="#">Create an account</a></span>
+        <span id="login" class="account"><a href="#">Login</a></span>
+        <!-- </div> -->
+
+      </div>
+    </header>
+    <main>
+
+      <div class="bcontainer">
+        <div class="heading">
+          <h2>Breakfast Places in Mumbai</h2>
+        </div>
+
+        <div class="foodplaces">
+
+          <div class="place">
+            <div class="restaurantimg">
+              <img src="card1.png" alt="img" width="80px" height="80px">
+            </div>
+            <div class="restaurants">
+              <h4>The Big Chilli Cakery</h4>
+              <address class="address">
+                Shop 4, Samruddhi park, opp...
+              </address>
+            </div>
+            <span class="foodType">
+
+              <table>
+                <tr>
+                  <th>CUISINES:</th>
+                  <td>Bakery</td>
+                </tr>
+                <tr>
+                  <th>COST FOR TWO:</th>
+                  <td>700</td>
+                </tr>
+              </table>
+
+            </span>
+          </div>
+
+          <div class="place">
+            <div class="restaurantimg">
+              <img src="card1.png" alt="img" width="80px" height="80px">
+            </div>
+            <div class="restaurants">
+              <h4>The Bake Shop</h4>
+              <address class="address">
+                Shop 4, Samruddhi park, opp...
+              </address>
+            </div>
+          <span class="foodType">
+
+            <table>
+              <tr>
+                <th>CUISINES:</th>
+                <td>Bakery</td>
+              </tr>
+              <tr>
+                <th>COST FOR TWO:</th>
+                <td>700</td>
+              </tr>
+            </table>
+
+          </span>
+          </div> <!--places end-->
+
+          <div class="pagination">
+            <a class="arrows" href="#">&laquo;</a>
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a class="arrows" href="#">&raquo;</a>
+
+          </div>
+
+        </div> <!--foodplaces end-->
+        <div class="filter">
+          <aside class="side">
+            <h5>Filters</h5>
+            <label for="location">Select Location</label><br>
+            <select id="location" class="sites" name="">
+              <option value="0">--Location--</option>
+              <option value="1">Dadar</option>
+              <option value="2">Station Road</option>
+              <option value="3">Navi</option>
+              <option value="4">Other</option>
+            </select><br>
+
+            <h6>Cuisines</h6>
+            <input type="checkbox" name="" value="North Indian" id="NI">
+            <label for="NI">North Indian</label><br>
+
+            <input type="checkbox" name="" value="North Indian" id="SI">
+            <label for="SI">South Indian</label><br>
+
+            <input type="checkbox" name="" value="North Indian" id="chini">
+            <label for="chini">Chinese</label><br>
+
+            <input type="checkbox" name="" value="North Indian" id="ff">
+            <label for="ff">Fast Food</label><br>
+
+            <input type="checkbox" name="" value="North Indian" id="sf">
+            <label for="sf">Street Food</label><br>
+
+            <h6>Cost For Two</h6>
+            <input type="radio" name="cost" value="500">
+            <label for="500">Less than 500</label><br>
+
+            <input type="radio" name="cost" value="less than 1000">
+            <label for="f-thou">500 to 1000</label><br>
+
+            <input type="radio" name="cost" value="upto 1500">
+            <label for="thou-fifteen">1000 to 500</label><br>
+
+            <input type="radio" name="cost" value="upto 2000">
+            <label for="fifteen-2thou">1500 to 2000</label><br>
+
+            <input type="radio" name="cost" value="over 2000">
+            <label for="Over2thou">2000+</label><br>
+
+
+
+            <h4>Sort</h4>
+              <input id="Dtohigh" type="radio" name="sort" value="Dtohigh">
+              <label for="D-Up">Price low to high</label><br>
+
+              <input type="radio" name="sort" value="Htolow">
+              <label for="Htolow" id="Htolow">Price high to low</label><br>
+          </aside>
+        </div>
+      </div> <!--bContainer end-->
+
+
+
+
+    </main>
+  </body>
+</html>

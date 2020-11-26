@@ -1,0 +1,168 @@
+body{
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background-color: #FBFBFB;
+}
+.header a{
+  color: white;
+  text-decoration: none;
+}
+
+a:visited{
+  /* color: white; */
+}
+/* Head Starts Here */
+
+.header{
+  padding: 5px 15%;
+  background-color: #CE0505;
+}
+
+.header::after{
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.logo{
+  /* font-size: 10px; */
+  padding: 0px 20px;
+  font-weight: bolder;
+  float: left;
+  text-align: center;
+  border-radius: 100%;
+  background: white;
+}
+
+.account{
+  border: 1px solid white;
+  border-radius: 10px;
+  float: right;
+  padding: 10px;
+  color: white;
+}
+#login{
+  margin-right: 10px;
+  border: none;
+}
+
+/* Head Ending */
+
+.heading{
+  /* border: 1px solid black; */
+  padding: 10px;
+  padding-left: 0px;
+}
+
+.bcontainer{
+  padding: 0px 30px 0px 10px;
+  /* border: 1px solid black; */
+  width: 66%;
+  margin: 0px 0px 0px 15%;
+}
+
+.bcontainer::after{
+  clear: both;
+  content: "";
+  display: table;
+}
+
+
+.side{
+  background-color: white;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  width: 20%;
+  padding: 20px;
+  float: left;
+  line-height: 20px;
+  font-size: 18px;
+  box-shadow: 3px 3px 5px #ccc;
+}
+h5, h6{
+  line-height: 10px;
+}
+label, select, option, address{
+  color: #888;
+  font-size: 15px;
+  width: 100%;
+}
+
+
+
+.foodplaces{
+  border: 1px solid black;
+  width: 70%;
+  float: right;
+}
+
+.place{
+  padding: 10px;
+  /* border: 1px solid black; */
+  border-radius: 4px;
+  margin: 0px 30px 30px;
+  box-shadow: 3px 3px 5px #ccc;
+  background-color: white;
+}
+
+.place:hover{
+transform: scale(1.1, 1.1);
+transition-timing-function: ease-in-out;
+box-shadow: 4px 4px 6px #ccc;
+}
+
+.restaurants{
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.restaurantimg img{
+  border-radius: 10px;
+  margin: 10px;
+  margin-right: 25px;
+  border-radius: 20px;
+  float: left;
+}
+
+table{
+  color: #888;
+  font-size: 14px;
+  text-align: left;
+}
+
+td{
+  padding-left: 20px;
+}
+
+.pagination{
+  border: 1px solid black;
+  width: 40%;
+  margin: 32px 0px 20px 170px;
+  /* padding: 5px; */
+  float: left;
+  overflow: auto;
+}
+
+.pagination a{
+  font-size: 15px;
+  font-weight: bolder;
+  color: #8C96AB;
+  float: left;
+  background-color: white;
+  padding: 0px 8px;
+  border: 1px solid #8C96AB;
+  border-radius: 3px;
+  margin: 4px;
+  text-decoration: none;
+}
+
+/* .pagination .arrows{
+  margin: 5px 12px;
+} */
+
+.pagination a:hover{
+  color: white;
+  background: #8C96AB;
+  transition:
+}
